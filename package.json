@@ -2,7 +2,6 @@
   "name": "chrome-ext-react",
   "version": "1.0.0",
   "description": "Seed project for react chrome extension",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"

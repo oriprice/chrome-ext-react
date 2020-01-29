@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Chrome Extension React",
+  "description": "Chrome Extension with react",
+  "version": "0.0.1",
+  "icons": {
+    "16": "/assets/get_started16.png",
+    "32": "/assets/get_started32.png",
+    "48": "/assets/get_started48.png",
+    "128": "/assets/get_started128.png"
+  },
+  "browser_action": {
+    "default_popup": "index.html?app",
+    "default_title": "Chrome Extension React"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "options_page":"index.html?options",
+  "permissions": [
+  ]
+}
+
+
